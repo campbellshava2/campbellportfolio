@@ -46,7 +46,7 @@ export default function Portfolio() {
     <div className="mr-4 flex">
       <Link href="/" className="mr-6 flex items-center space-x-2">
         <Terminal className="h-6 w-6 text-green-400" />
-        <span className="font-bold text-green-400">&lt;Chiurai /&gt;</span>
+        <span className="font-bold text-green-400">&lt;Campbell Portfolio/&gt;</span>
       </Link>
     </div>
     {/* Desktop Nav */}
@@ -78,7 +78,7 @@ export default function Portfolio() {
     {/* Social icons always visible */}
     <div className="hidden sm:flex items-center space-x-2 ml-4">
       <Button variant="ghost" size="icon" className="hover:bg-gray-800 hover:text-green-400" asChild>
-        <Link href="https://github.com" target="_blank">
+        <Link href="https://github.com/campbellshava2" target="_blank">
           <Github className="h-4 w-4" />
           <span className="sr-only">GitHub</span>
         </Link>
@@ -111,7 +111,7 @@ export default function Portfolio() {
       </Link>
       <div className="flex items-center space-x-2 mt-2">
         <Button variant="ghost" size="icon" className="hover:bg-gray-800 hover:text-green-400" asChild>
-          <Link href="https://github.com" target="_blank">
+          <Link href="https://github.com/campbellshava2 " target="_blank">
             <Github className="h-4 w-4" />
             <span className="sr-only">GitHub</span>
           </Link>
@@ -508,7 +508,7 @@ export default function Portfolio() {
                       className="border-green-400 text-green-400 hover:bg-green-400 hover:text-black bg-transparent"
                       asChild
                     >
-                      <Link href="#" target="_blank">
+                      <Link href="https://github.com/campbellshava2/BMX-management-system" target="_blank">
                         <Github className="h-4 w-4 mr-2" />
                         Code
                       </Link>
@@ -534,13 +534,13 @@ export default function Portfolio() {
                 <CardContent>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <Badge variant="outline" className="border-green-400 text-green-400">
-                      Django
+                      Node.js
                     </Badge>
                     <Badge variant="outline" className="border-green-400 text-green-400">
-                      React
+                      React.js
                     </Badge>
                     <Badge variant="outline" className="border-green-400 text-green-400">
-                      PostgreSQL
+                      Tailwind CSS
                     </Badge>
                   </div>
                   <div className="flex gap-2">
@@ -618,7 +618,7 @@ export default function Portfolio() {
     </div>
     <div className="flex items-center space-x-4">
       <Button variant="ghost" size="icon" className="hover:bg-gray-800 hover:text-green-400" asChild>
-        <Link href="https://github.com" target="_blank">
+        <Link href="https://github.com/campbellshava2" target="_blank">
           <Github className="h-4 w-4" />
           <span className="sr-only">GitHub</span>
         </Link>
