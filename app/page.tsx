@@ -137,11 +137,9 @@ export default function Portfolio() {
           <Terminal className="h-5 w-5" />
           <span className="font-mono text-sm">~/portfolio/chiurai</span>
         </div>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tighter text-center lg:text-left">
-          <span className="text-green-400">Chiurai Campbell</span>
-          <br />
-          <span className="text-gray-300">Shava Mgonie</span>
-        </h1>
+        <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tighter text-center lg:text-left">
+          <span className="text-green-400">Chiurai Campbell Shava Mgonie</span>
+        </h3>
         <div className="space-y-2 text-center lg:text-left">
                   <p className="text-xl text-green-400 font-mono">{"> CTO & Co-Founder Navjo Synk Solutions"}</p>
                   <p className="max-w-[600px] text-gray-400 md:text-lg">
@@ -163,6 +161,11 @@ export default function Portfolio() {
                 >
                   <Link href="#contact">Get In Touch</Link>
                 </Button>
+                <Button
+                   size="lg"
+                   className="bg-green-600 hover:bg-green-700 text-black font-semibold" asChild>
+                  <Link href="/Chiurai Campbell Shava Mgonie CV.pdf" target="_blank" download> Download CV </Link>
+                  </Button>
               </div>
             </div>
             <div className="flex items-center justify-center">
